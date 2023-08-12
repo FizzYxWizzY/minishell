@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minishell.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lray <lray@student.42lausanne.ch >         +#+  +:+       +#+        */
+/*   By: mflury <mflury@student.42lausanne.ch>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/06 19:13:07 by lray              #+#    #+#             */
-/*   Updated: 2023/08/11 23:28:59 by lray             ###   ########.fr       */
+/*   Updated: 2023/08/11 23:45:52 by mflury           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 # include "exec/dynarrstr.h"
 
 # include "libft/libft.h"
+# include "signal_handlers/signal_handlers.h"
 # include "prompt/prompt.h"
 # include "lexer/lexer.h"
 # include "parser/parser.h"
