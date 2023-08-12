@@ -1,6 +1,7 @@
 NAME		:= minishell
 
 SRCS 		:= \
+	signal_handlers/signal_handlers.c \
 	prompt/prompt.c \
 	lexer/lexer.c \
 	lexer/trim_and_condense_string.c \
